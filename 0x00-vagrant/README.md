@@ -2,8 +2,6 @@
 
 *This project focuses mainly on setting up Vagrant and testing it*
 
-# Using Vagrant on a personal computer
-
 ## Why use Virtual Machines? And why Vagrant?
 
 ### My machine vs. virtual environments
@@ -33,36 +31,31 @@ We are using two tools: **VirtualBox** and **Vagrant**.
 * Add the **Ubuntu 20.04** (`trusty64`) image to your box list
 
 ```
-
 C:\Users\kidusmik> vagrant box add ubuntu/trusty64
 ```
 
 * Create your first virtual machine:
 
 ```
-
-C:\Users\julien> vagrant init ubuntu/trusty64
+C:\Users\kidusmik> vagrant init ubuntu/trusty64
 ```
 
 This will generate a `Vagrantfile` with `base = "ubuntu/trusty64"` - *you don’t have to execute this command line everyday, only once, to create a new virtual machine*
 
 ```
-
-C:\Users\julien> vagrant plugin install vagrant-vbguest
+C:\Users\kidusmik> vagrant plugin install vagrant-vbguest
 ```
 
 This is to avoid issue with the lastest version of `Vagrant`.
 
 ```
-
-C:\Users\julien> vagrant up
+C:\Users\kidusmik> vagrant up
 ```
 
 This will start your virtual machine
 
 ```
-
-C:\Users\julien> vagrant ssh
+C:\Users\kidusmik> vagrant ssh
 ```
 
 Now you are inside your `virtual machine`.
