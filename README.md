@@ -1,3 +1,5 @@
-# Zero Day Repository
+# ALX Training - Zero Day
 
-* This is exercise for Project Vagrant
+*Description of all the directories in here are listed below.*
+
+* 0x00-vagrant :- Contains a `directory` that deals with setting up a `Vagrant`.
