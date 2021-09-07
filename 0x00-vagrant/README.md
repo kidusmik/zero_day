@@ -59,3 +59,7 @@ C:\Users\kidusmik> vagrant ssh
 ```
 
 Now you are inside your `virtual machine`.
+
+```
+vagrant@vagrant-ubuntu-trusty-64:~$
+```
